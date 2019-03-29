@@ -1,0 +1,17 @@
+{
+    "name": "node-teste",
+    "version": "1.0.0",
+    "description": "Image for node testes",
+    "author": "Vitor Carvalho <vitorblz@gmail.com>",
+    "main": "src/server.js",
+    "scripts": {
+      "start": "pm2-runtime start src/server.js --watch -i 4"
+    },
+    "dependencies": {
+      "express": "^4.16.4",
+      "express-session": "^1.15.6",
+      "connect-redis": "3.4.1",
+      "pm2": "^3.4.1",
+      "dotenv": "^6.2.0"
+    }
+  }
